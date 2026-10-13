@@ -16,7 +16,7 @@ export default function MenuForm({ onAdd }) {
 
  function handleChange(event) {
    const { nama, harga, kategori, stok } = event.target;
-   setForm((previous) => ({ ...previous, [nama]: nama.value, [harga]: harga.value, [kategori]: kategori.value, [stok]: stok.value}));
+   setForm((previous) => ({ ...previous, [nama]: nama, [harga]: harga, [kategori]: kategori, [stok]: stok}));
  }
 
  function handleFormSubmission(event) {
