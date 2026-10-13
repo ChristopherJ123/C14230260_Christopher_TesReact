@@ -22,6 +22,8 @@ dua kesempatan ketika cleanup function dijalankan adalah a dan b karena
 kita tidak menambahkan kota ke dependency array
 
 A4
+Di induk komponen agar tidak redudansi, satu variable digunakan untuk berbagai komponen.
+Yang naik adalah data
 
 A5
 satu fungsi handleChange dapat menangani banyak input sekaligus karena setiap input memiliki
