@@ -23,7 +23,7 @@ kita tidak menambahkan kota ke dependency array
 
 A4
 Di induk komponen agar tidak redudansi, satu variable digunakan untuk berbagai komponen.
-Yang naik adalah data
+Yang naik ada kunci keywordnya saja.
 
 A5
 satu fungsi handleChange dapat menangani banyak input sekaligus karena setiap input memiliki
